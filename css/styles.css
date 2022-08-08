@@ -967,6 +967,7 @@ address {
     border-radius: 2px;
     margin-right: 8px;
     cursor: pointer;
+    transition: background-color var(--transition-dur-funk);
 }
 
 .modal-form-check:checked + .modal-form-check-descr::before {
